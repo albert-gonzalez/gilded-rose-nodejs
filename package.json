@@ -4,11 +4,11 @@
   "description": "Gilded Rose Refactoring Kata in NodeJS",
   "main": "index.js",
   "scripts": {
-    "test": "mocha spec/*.js"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/albert-gonzalez/gilded-rose-javascript.git"
+    "url": "git+https://github.com/albert-gonzalez/gilded-rose-nodejs.git"
   },
   "keywords": [
     "gilded",
@@ -20,17 +20,16 @@
   "author": "Albert Gonzalez",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/albert-gonzalez/gilded-rose-javascript/issues"
+    "url": "https://github.com/albert-gonzalez/gilded-rose-nodejs/issues"
   },
-  "homepage": "https://github.com/albert-gonzalez/gilded-rose-javascript#readme",
+  "homepage": "https://github.com/albert-gonzalez/gilded-rose-nodejs#readme",
   "devDependencies": {
-    "chai": "^4.1.1",
-    "eslint": "^4.5.0",
-    "eslint-config-standard": "^10.2.1",
-    "eslint-plugin-import": "^2.7.0",
-    "eslint-plugin-node": "^5.1.1",
-    "eslint-plugin-promise": "^3.5.0",
-    "eslint-plugin-standard": "^3.0.1",
-    "mocha": "^3.5.0"
+    "eslint": "^7.29.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-standard": "^5.0.0",
+    "jest": "^27.0.5"
   }
 }
